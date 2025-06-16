@@ -25,6 +25,15 @@ Make sure you have the following installed on your system:
   Download and install from: https://maven.apache.org/install.html
 
 - An IDE like **IntelliJ IDEA**, **Eclipse**, or you can use any text editor and run from command line
+## Set JAVA_HOME
+
+Before building or running, make sure your environment uses the correct JDK:
+
+```bash
+export JAVA_HOME="/c/Users/username/AppData/Local/Programs/Eclipse Adoptium/jdk-21.0.7.6-hotspot"
+export PATH="$JAVA_HOME/bin:$PATH"
+java -version
+```
 
 ---
 
